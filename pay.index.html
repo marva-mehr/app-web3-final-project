@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Form with Balance Input</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="pay.css">
+  <link rel="icon" type="image/jpg" href="favicon.avif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+     <nav>
+        <div id="sidebar">
+          <div class="profile-pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_OkmJN6fQsTJLr5_RybqS8U0bKm_ns1z0Q&s" alt="Profile Picture">
+          </div>
+          <div class="logo">Apple</div>
+          <a href="home.index.html" class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+          <a href="about.index.html" class="menu-item">
+            <i class="fa-brands fa-apple"></i>
+            <span>About</span>
+          </a>
+          <a href="blog.index.html" class="menu-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Blog</span>
+          </a>
+          <a href="products.index.html" class="menu-item">
+            <i class="fa-sharp fa-solid fa-bucket"></i>
+            <span>Products</span>
+          </a>
+          <a href="store.index.html" class="menu-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Store</span>
+          </a>
+        </div>
+      </nav>
+  </header>
+   
+  <div class="container">
+    <!-- Error message section (Displayed at the top of the page) -->
+    <div id="errorMessage" class="error-message"></div>
+
+    <h1>Secure Payment</h1>
+    <form id="paymentForm">
+      <!-- Card Number (Test) -->
+      <label for="cardNumber">Card Number (Test)</label>
+      <input type="text" id="cardNumber" maxlength="16" placeholder="Enter card number" required>
+
+      <!-- Expiry Date -->
+      <div class="input-group">
+        <div>
+          <label for="expiryMonth">Expiry Month</label>
+          <input type="text" id="expiryMonth" maxlength="2" placeholder="MM" required>
+        </div>
+        <div>
+          <label for="expiryYear">Expiry Year</label>
+          <input type="text" id="expiryYear" maxlength="2" placeholder="YY" required>
+        </div>
+      </div>
+
+      <!-- CVV -->
+      <label for="cvv">CVV</label>
+      <input type="password" id="cvv" maxlength="3" placeholder="123" required>
+
+      <!-- Payment Amount -->
+      <label for="amount">Amount to Pay ($)</label>
+      <input type="number" id="amount" placeholder="Enter amount" required>
+      
+      <!-- User's Card Balance -->
+      <label for="cardBalance">Enter your card balance ($)</label>
+      <input type="number" id="cardBalance" placeholder="Enter your card balance" required>
+
+      <!-- Display the Amount -->
+      <p id="amountDisplay">Amount to be paid: $0</p>
+
+      <!-- Payment Button -->
+      <button type="submit">Pay Now</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  
+<div id="message" class="success-message"></div>
+
+
+<div id="errorMessage" class="error-message" style="display: none;"></div>
+    <footer class="footer">
+      <p>© 2024 Apple Inc. All rights reserved.</p>
+    </footer>
+
+  
+  <script src="pay.js"></script>
+</body>
+</html>
+
