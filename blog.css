@@ -1,0 +1,138 @@
+.content {
+  max-width: 1200px;
+  margin: 70px auto; /* مرکز کردن محتوا */
+  display: flex;
+  flex-wrap: wrap; /* محتوا به خط بعدی برود اگر جا نشد */
+  gap: 20px; /* فاصله بین ستون‌ها */
+  padding: 0 15px;
+  margin-left: 70px;
+}
+
+section {
+  flex: 1 1 calc(33.333% - 20px); /* سه ستون به صورت پیش‌فرض */
+  background-color: #f7f6f6;
+  border: 1px solid #c5c5c6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* حالت رسپانسیو برای تبلت (دو ستون) */
+@media (max-width: 1024px) {
+  section {
+    flex: 1 1 calc(50% - 20px); /* دو ستون */
+  }
+}
+
+/* حالت رسپانسیو برای موبایل (یک ستون) */
+@media (max-width: 768px) {
+  section {
+    flex: 1 1 100%; /* یک ستون */
+  }
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+body {
+    font-family: 'Hind Mysuru', sans-serif;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color:  #6f706f;
+  border-bottom: 2px solid #4c4c4c89;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+.featured-post img {
+  padding-top: 40px;
+  width:500px;
+  height:300px;
+}
+/* CSS for animation */
+.featured-image {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.spotlight img {
+  width: 500px;
+  height:500px;
+}
+.featured-image.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.spotlight-image {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.spotlight-image.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+a {
+  color: rgba(99, 99, 99, 0.751);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+

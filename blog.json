@@ -1,0 +1,31 @@
+{
+  "featuredPost": {
+    "title": "Unveiling the Future: Apple Vision Pro",
+    "description": "Experience a groundbreaking leap in spatial computing with the all-new Apple Vision Pro. Combining sleek design and advanced AR capabilities, Vision Pro redefines how you interact with your digital world.",
+    "link": "https://www.apple.com/apple-vision-pro/",
+    "image": "img3.jpg"
+  },
+  "latestPosts": [
+    {
+      "title": "iPhone 15 Pro: A New Era of Power and Elegance",
+      "description": "Crafted with aerospace-grade titanium and powered by the cutting-edge A17 Pro chip, the iPhone 15 Pro delivers unparalleled performance, stunning photography, and all-day battery life.",
+      "link": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/"
+    },
+    {
+      "title": "MacBook Pro 2024: Speed Meets Sustainability",
+      "description": "The next-generation MacBook Pro combines M3 Pro and Max chips for industry-leading performance, now built with 100% recycled materials. Designed for creators, coders, and professionals.",
+      "link": "https://www.apple.com/newsroom/2024/10/new-macbook-pro-features-m4-family-of-chips-and-apple-intelligence/"
+    },
+    {
+      "title": "The iOS 18 Experience: What's New?",
+      "description": "Dive into the most intuitive and customizable version of iOS yet, featuring advanced widgets, AI-powered personalizations, and enhanced privacy controls.",
+      "link": "https://support.apple.com/en-us/121161#:~:text=iOS%2018%20brings%20new%20ways,to%20relive%20your%20special%20moments."
+    }
+  ],
+  "spotlight": {
+    "title": "Behind the Scenes: Apple’s Commitment to Sustainability",
+    "description": "Learn how Apple is driving a carbon-neutral future by 2030, from innovative materials to renewable energy efforts worldwide.",
+    "link": "https://www.apple.com/environment/#:~:text=Over%2055%25%20reduction%20in%20CO%E2%82%82e,and%20renewable%20sources%20in%202023.",
+    "image": "img4.jpg"
+  }
+}
