@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   firstForm.addEventListener("submit", (e) => {
     e.preventDefault(); 
-    window.location.href = "home.index.html";
+    window.location.href = "home.html";
   });
 
   secondForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    window.location.href = "home.index.html";
+    window.location.href = "home.html";
   });
   const modal = document.getElementById("myModal");
   const forgotPasswordLink = document.getElementById("forgotPasswordLink");
