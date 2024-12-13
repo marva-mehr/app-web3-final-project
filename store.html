@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="store.css" type="text/css">
+    <link rel="icon" type="image/jpg" href="favicon.avif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="sidebar">
+          <div class="profile-pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_OkmJN6fQsTJLr5_RybqS8U0bKm_ns1z0Q&s" alt="Profile Picture">
+          </div>
+          <div class="logo">Apple</div>
+          <a href="home.html" class="menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+          <a href="about.html" class="menu-item">
+            <i class="fa-brands fa-apple"></i>
+            <span>About</span>
+          </a>
+          <a href="blog.html" class="menu-item">
+            <i class="fa-solid fa-book"></i>
+            <span>Blog</span>
+          </a>
+          <a href="products.html" class="menu-item">
+            <i class="fa-sharp fa-solid fa-bucket"></i>
+            <span>Products</span>
+          </a>
+          <a href="store.html" class="menu-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Store</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="box box-1" style="--img: url(image1.jpg);" id="image1">
+        <div class="text-container">
+          <p>iphone 16 plus</p>
+          <p>899$</p>
+        </div>
+      </div>
+      <div class="box box-2" style="--img: url(image2.jpg);" id="image2">
+        <div class="text-container">
+          <p>iphone 15 pro max</p>
+          <p>1199$</p>
+        </div>
+      </div>
+      <div class="box box-3" style="--img: url(image3.jpg);" id="image3">
+        <div class="text-container">
+          <p>ipad pro 2024</p>
+          <p>1299$</p>
+        </div>
+      </div>
+      <div class="box box-4" style="--img: url(image4.jpg);" id="image4">
+        <div class="text-container">
+          <p>ipad pro 2023</p>
+          <p>990$</p>
+        </div>
+      </div>
+      <div class="box box-5" style="--img: url(image5.jpg);" id="image5">
+        <div class="text-container">
+          <p>apple Imac desktop</p>
+          <p>1299$</p>
+        </div>
+      </div>
+      <div class="box box-6" style="--img: url(image6.jpg);" id="image6">
+        <div class="text-container">
+          <p>mac book pro</p>
+          <p>1500$</p>
+        </div>
+      </div>
+      <div class="box box-7" style="--img: url(image7.jpg);" id="image7">
+        <div class="text-container">
+          <p>headphone airpod max</p>
+          <p>549$</p>
+        </div>
+      </div>
+      <div class="box box-8" style="--img: url(image8.jpg);" id="image8">
+        <div class="text-container">
+          <p>airpods pro2</p>
+          <p>129$</p>
+        </div>
+      </div>
+      <div class="box box-9" style="--img: url(image9.jpg);" id="image9">
+        <div class="text-container">
+          <p>apple Watch series 9</p>
+          <p>499$</p>
+        </div>
+      </div>
+      <div class="box box-10" style="--img: url(image10.jpg);" id="image10">
+        <div class="text-container">
+          <p>apple Watch series 8</p>
+          <p>254$</p>
+        </div>
+      </div>
+     </div>
+
+     <div class="subtotal-container">
+    <div class="subtotal">
+        <strong>Subtotal:</strong> $<span id="total">0</span>
+    </div>
+   <div class="button-container">
+  <a href="pay.index.html" class="boom-button" onclick="storeSubtotal()">Pay</a>
+
+  
+</div>
+</div>
+
+     <footer class="footer">
+      <p>© 2024 Apple Inc. All rights reserved.</p>
+    </footer>
+            
+    <script src="store.js"></script>
+  </body>
+</html>
+
