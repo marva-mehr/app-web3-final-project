@@ -1,7 +1,7 @@
 // Fetch data and dynamically render the blog content
-async function fetchBlogData() {
+async function fetchBlog() {
   try {
-      const response = await fetch('blogData.json'); // Replace with your API endpoint
+      const response = await fetch('blog.json'); // Replace with your API endpoint
       const data = await response.json();
 
       // Render featured post
