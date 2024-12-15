@@ -61,7 +61,7 @@ document.addEventListener('scroll', () => {
 }
 
 // Initialize the API interaction
-document.addEventListener('DOMContentLoaded', fetchBlogData);
+document.addEventListener('DOMContentLoaded', fetchBlog);
 
 // The base URL for Wikipedia's API
 const wikiApiUrl = 'https://en.wikipedia.org/w/api.php';
