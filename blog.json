@@ -3,7 +3,7 @@
     "title": "Unveiling the Future: Apple Vision Pro",
     "description": "Experience a groundbreaking leap in spatial computing with the all-new Apple Vision Pro. Combining sleek design and advanced AR capabilities, Vision Pro redefines how you interact with your digital world.",
     "link": "https://www.apple.com/apple-vision-pro/",
-    "image": "img3.jpg"
+    "image": "featuredPost.jpg"
   },
   "latestPosts": [
     {
@@ -26,6 +26,6 @@
     "title": "Behind the Scenes: Apple’s Commitment to Sustainability",
     "description": "Learn how Apple is driving a carbon-neutral future by 2030, from innovative materials to renewable energy efforts worldwide.",
     "link": "https://www.apple.com/environment/#:~:text=Over%2055%25%20reduction%20in%20CO%E2%82%82e,and%20renewable%20sources%20in%202023.",
-    "image": "img4.jpg"
+    "image": "spotlight.jpg"
   }
 }
