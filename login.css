@@ -207,7 +207,7 @@ body {
     .modal {
       display: none; 
       position: fixed;
-      z-index: 1;
+      z-index: 1000;
       left: 0;
       top: 0;
       width: 100%;
@@ -221,7 +221,10 @@ body {
       margin: 5% auto;
       padding: 20px;
       border: 1px solid #888;
-      width: 80%;
+      border-radius: 10px;
+      width: 50%;
+      text-align: center;
+      z-index: 1010; 
       text-align: center;
     }
 
