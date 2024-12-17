@@ -76,9 +76,14 @@
   padding: 1px;
   margin-left: auto;
   margin-right: auto;
+
+ justify-content: space-around;
+  margin-left: 200px;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   justify-content: space-around;
   
   
+
 }
